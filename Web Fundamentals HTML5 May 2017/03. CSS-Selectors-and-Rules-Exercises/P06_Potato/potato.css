@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+nav {
+    color: #FFFFFF;
+}
+
+nav p {
+    float: left;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.8em;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:last-of-type {
+    margin-right: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+nav ul li:last-of-type:hover {
+    cursor: pointer;
+    background-color: #867260;
+    border-color: #867260;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header {
+    background: radial-gradient(ellipse at center,
+    rgba(192,169,145,1) 0%,
+    rgba(192,169,145,1) 59%,
+    rgba(168,143,121,1) 100%);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-title {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    padding-top: 150px;
+    letter-spacing: 2px;
+    font-size: 2.7em;
+}
+
+.header-subtitle {
+    padding: 30px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+.header-potato {
+    width: 480px;
+    height: 410px;
+    padding-bottom: 50px;
+}
+
+.features {
+    background: url("images/potato-background.png") no-repeat center;
+    text-align: center;
+}
+
+.features-title {
+    padding-top: 150px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.features-subtitle {
+    padding: 20px;
+    font-weight: 100;
+    width: 520px;
+    margin: 0 auto;
+}
+
+.feature-potatoes {
+    padding-bottom: 150px;
+}
+
+.buy-now {
+    text-align: center;
+}
+
+.order-title {
+    padding: 30px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: #c9c9c9;
+    font-size: 2.8em;
+}
+
+.potato {
+    display: inline-block;
+    border-right: 2px solid #c9c9c9;
+    padding: 30px 50px 30px 50px;
+    margin-bottom: 50px;
+}
+
+.potato-features {
+    list-style-type: none;
+}
+
+.potato-title {
+    color: #c9c9c9;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.potato-description {
+    padding-bottom: 20px;
+    color: #c9c9c9;
+    font-size: 1.1em;
+}
+
+.potato-img {
+    width: 180px;
+    height: 130px;
+}
+
+.btn-order {
+    padding: 8px 32px 8px 32px;
+    border: 2px solid #9acd32;
+    border-radius: 20px;
+    background: none;
+    color: #9acd32;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.btn-order:hover {
+    cursor: pointer;
+    background-color: #9acd32;
+    color: #FFFFFF;
+}
+
+.potato-price {
+    padding: 15px;
+}
+
+footer {
+    background-color: #867260;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-weight: bold;
+}

@@ -1,6 +1,139 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,900";
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
-    background: #FFFFFF;
+    background-image: url('images/dark-wood.jpg');
+}
+
+header,
+nav {
+    background-image: url('images/header-page.jpg');
+    background-position: top;
+}
+
+header,
+nav,
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    height: 140px;
+}
+
+header h1 {
+    padding: 5% 1%;
+    text-align: right;
+}
+
+nav {
+    border-top: 2px solid #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 6px 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul a:hover {
+    color: black;
+}
+
+nav ul li:first-of-type a {
+    color: #000;
+}
+
+main {
+    display: block;
+    margin: 0 auto;
+    color: #000;
+}
+
+
+article {
+    background: #fff;
+    float: left;
+    width: 600px;
+    padding: 20px;
+}
+
+article:after
+aside:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+article figure {
+    width: 280px;
+    float: left;
+    border: 1px solid #aaa;
+    display: inline-block;
+}
+
+figure img,
+figure figcaption {
+    padding: 6px;
+    width: 96%
+}
+
+article div,
+article p {
+    width: 280px;
+    float: right;
+}
+
+
+article h2 {
+    color: #555;
+}
+
+article h3 {
+    color: #abaa12;
+}
+
+
+aside section {
+    background: #fff;
+    border-left: 1px solid #aaa;
+    color: pink;
+}
+
+aside h2 {
+    padding: 15px;
+}
+
+aside li {
+    padding: 10px 60px 10px 30px;
+    list-style-type: none;
+    border-bottom: 1px solid #aaa;
+    border-spacing: 10px;
+    font-weight: 400;
+}
+
+aside li a {
+    text-decoration: none;
+    color: pink;
+}
+
+footer {
+    color: #fff;
+    background-color: #aaa;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
 }

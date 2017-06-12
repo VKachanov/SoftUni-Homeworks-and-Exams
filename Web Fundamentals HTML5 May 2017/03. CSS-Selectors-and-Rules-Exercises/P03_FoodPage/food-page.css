@@ -1,75 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #FFFFFF;
     font-size: 14px;
-    background: #FFFFFF;
 }
-
 header {
     background: url(images/header.jpg) no-repeat center;
     background-size: cover;
-    height: 150px;
+    color:#fff;
+    height: 180px;
+}
+header h1 {
+    padding-top: 70px;
     text-align: center;
 }
 
-header h1 {
-    color: #FFFFFF;
-    line-height: 150px;
-}
+div {
+    /*border: 1px solid black;*/
+    width: 750px;
+    position: relative;
+    left: 200px;/*auto*/
+    right: auto;
 
-.content {
-    font-family: 'Lato', sans-serif;
-    margin-left: 120px;
-    width: 700px;
-    display: inline-block;
 }
-
-.content img {
-    width: 700px;
+div article h1, aside h1 {
+    margin-top:20px;
 }
+div article img {
+    margin-top:0;
+    width: 100%;
 
-.content p:first-of-type {
-    margin: 2px;
 }
-
-.content p {
-    margin-top: 0;
+.date {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+div article button {
+    font-size: 0.9em;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px 15px 10px 15px;
+    color:#ec5353;
+    background: none;
+    border:1px solid  #ec5353;
+    cursor:pointer;
+}
+div article button:hover {
+    color:#fff;
+    background-color: #ec5353;
+    border: 1px solid #ec5353;
 }
 aside {
-    float: right;
-    width: 450px;
-    display: inline-block;
+    width: 320px;
+    position: absolute;
+    right: 200px;
+    top: 180px;
+    margin-left: 100px;
 }
-
 aside img {
-    width: 300px;
-    height: 200px;
+    width:100%;
+    margin-top: 30px;
 }
-
 aside p {
-    width: 300px;
-}
-
-button {
-    background: none;
-    border: 1px solid #ec5353;
-    color: #ec5353;
-    border-radius: 20px;
-    height: 30px;
-    width: 100px;
-    cursor: pointer;
-    font-size: 0.9em;
-}
-
-button:hover {
-    border: 1px solid #ec5353;
-    background-color: #ec5353;
-    color: #FFFFFF;
-}
-
-aside::after {
-    content: '';
-    display: block;
-    clear: both;
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: left;
 }
