@@ -1,0 +1,98 @@
+/*•	The layout should be 1000px.
+•	Use google font Vollkorn - https://www.google.com/fonts#UsePlace:use/Collection:Vollkorn
+•	'Vollkorn', serif; (size: 40px for the title, 30px for the subtitle, 60px for the price).
+•	Font: 16px Tahoma, sans-serif for the main text.
+•	Button for Purchase now
+*/
+@font-face {
+    font-family: 'Vollkorn';
+    src: url(fonts/Vollkorn-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Vollkorn, serif;
+}
+
+main {
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    margin: 75px auto 0 auto;
+    width: 900px;
+}
+
+h1  {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: #cccccc;
+    text-transform: capitalize;
+    font-weight: 400;
+    width: 250px;
+    height: 75px;
+    line-height: 75px;
+}
+
+h2:hover {
+    background-color: #72aeb4;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+h3:hover {
+    color: #72aeb4;
+    cursor: pointer;
+}
+
+section:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+article {
+    float: left;
+    margin: 10px;
+    width: 250px;
+    position: relative;
+    min-height: 450px;
+}
+
+button {
+    width: 220px;
+    height: 50px;
+    background-color: #cccccc;
+    text-transform: capitalize;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+button:hover {
+    background-color: #72aeb4;
+    cursor: pointer;
+}
+p {
+    padding-bottom: 20px;
+
+}
+

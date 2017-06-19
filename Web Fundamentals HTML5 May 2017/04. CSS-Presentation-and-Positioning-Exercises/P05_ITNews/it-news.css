@@ -1,0 +1,63 @@
+/*•	The layout is body-centered and should be 1200px.
+•	Use google font Vollkorn - https://www.google.com/fonts#UsePlace:use/Collection:Vollkorn
+•	Text color: #72aeb4;
+•	There are 3 articles.
+*/
+@import url('https://www.google.com/fonts#UsePlace:use/Collection:Vollkorn');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.image {
+    float: left;
+    border: 1px solid #333333;
+    width: 220px;
+    height: 132px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 200px;
+    padding: 10px 5px 5px 10px;
+}
+
+.text {
+    float: right;
+    width: 740px;
+}
+
+.text h2 {
+    font-size: 24px;
+    color: #72aeb4;
+    padding-bottom: 5px;
+}
+
+.text p:last-of-type {
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.text p:last-of-type a {
+    color: #72aeb4;
+    font-size: 18px;
+}
+
+.text p:first-of-type {
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.text p {
+    font-size: 14px;
+}

@@ -1,0 +1,101 @@
+/*•
+o
+o	Button Read More: 14px.
+•
+•
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    background-color: #dddddd;
+    color: #9470DC;
+    top: 150px;
+    height: 75px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 75px;
+}
+.wrapper {
+    position: relative;
+    top: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+article {
+    float: left;
+    margin: 25px;
+    width: 150px;
+    background-color: #eee;
+    border-radius: 15px;
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    background-color: #9470dc;
+    border-radius: 50%;
+    position: relative;
+    left: 4px;
+    top: 4px;
+}
+
+.number {
+    position: relative;
+    top: 59px;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+article > p {
+    padding: 20px 15px 20px 15px;
+    color: #aaaaaa;
+}
+
+button {
+    background-color: #dddddd;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.circle:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.circle:hover .number {
+    color: #9470dc;
+}

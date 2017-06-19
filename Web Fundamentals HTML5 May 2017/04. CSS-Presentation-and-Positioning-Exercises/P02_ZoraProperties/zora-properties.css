@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    font-family:'Open Sans' , Arial, sans-serif; 'Comfortaa', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    float: left;
+    background-color: #ffffff;
+    height: 800px;
+    width: 300px;
+}
+
+aside h1 {
+    text-align: center;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+aside img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 75px;
+}
+
+aside p {
+    text-align: center;
+    font-family: 'Open Sans' , Arial, sans-serif;
+    text-transform: uppercase;
+    color: #B0BFC6;
+}
+
+aside nav {
+    float: left;
+}
+
+nav ul {
+    padding: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    color: #B0BFC6;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
+.container {
+    background-color: #f3f5f7;
+    padding: 40px;
+    margin-left: 300px;
+}
+
+h1, h3, h3, p {
+    margin-left: 20px;
+}
+
+.add {
+    background-color: #ff7739;
+    color: #FDEAF0;
+    float: right;
+    padding: 7px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    width: 120px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #ff7739;
+}
+
+.add:hover {
+    background: none;
+    color: #ff7739;
+    border: 2px solid #ff7739;
+}
+
+div h1, h3 {
+    color: #384850;
+}
+
+div h1 span {
+    color: #B0BFC6;
+}
+
+
+section div {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: #F8FAFC;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+    margin: 20px;
+}
+
+.rented {
+    background-color: #B7C4CD;
+    width: 100px;
+    position: relative;
+    margin-left: -30px;
+    border-radius: 20px;
+    padding: 7px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 70px;
+
+}
+
+.listed {
+    background-color: #68BA69;
+    width: 100px;
+    border-radius: 20px;
+    padding: 7px;
+    position: relative;
+    margin-left: -30px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 70px;
+
+}
+
+.draft {
+    background-color: #90A4AD;
+    width: 100px;
+    border-radius: 20px;
+    padding: 7px;
+    position: relative;
+    margin-left: -30px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 70px;
+
+}
+
+section div img {
+    margin-top: -70px;
+}
+
+section p {
+    text-transform: capitalize;
+}
+
+p i {
+    margin-left: 5px;
+}
+
+li i {
+    margin: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
