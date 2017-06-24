@@ -1,0 +1,376 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('img/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+header p {
+    float: left;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+header nav {
+    float: right;
+    margin-right: 25px;
+}
+
+header nav ul li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #F86A2E;
+}
+
+.fa-play-circle:hover {
+    color: #F86A2E;
+    cursor: pointer;
+}
+
+
+header h1 {
+    text-align: center;
+    padding-top: 300px;
+    width: 500px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.fa, .fa-play-circle, .fa-4x {
+    width: 150px;
+    color: white;
+    float: right;
+    margin-right: 200px;
+    margin-top: -50px;
+}
+
+.fa-code, .fa-2x {
+    color: #ffffff;
+    float: left;
+}
+
+.first-header-container {
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+.fa-address-book-o, .fa-microphone, .fa-cutlery {
+    float: left;
+    width: 25px;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.fa-boxes-orange
+
+
+.header-container {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 300px;
+    vertical-align: top;
+}
+
+
+.header-container p{
+    width: 250px;
+}
+
+.coding {
+    width: 1100px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.coding-container {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.coding-container {
+    margin-top: 50px;
+}
+
+.first-article {
+    width: 150px;
+    margin: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.second-article {
+    width: 250px;
+    display: inline-block;
+    float:left;
+    margin: 40px;
+    margin-top: 0;
+
+}
+
+.coding-article-image {
+    margin: 40px;
+    margin-top: 0;
+}
+
+.author {
+    text-transform: capitalize;
+    margin-top: 35px;
+    font-size: 12px;
+    float: right;
+}
+
+.create {
+    font-weight: bold;
+}
+
+.orange-color{
+    float: right;
+    background-color: #ff5a30;
+    opacity: 0.7;
+    margin-right: -265px;
+    width: 445px;
+    height: 500px;
+    position: relative;
+    margin-top: -470px;
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 800px;
+}
+
+.bold {
+    font-weight: bold;
+    float: right;
+
+}
+
+.schedule {
+    background-color: #3C3E4A;
+    width: 100%;
+    height: 600px;
+}
+
+.schedule-container h1 {
+    font-size: 22px;
+    color: #ffffff;
+    padding-top: 20px;
+    width: 420px;
+    margin-left: -35px;
+}
+
+.schedule-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.schedule-box-container {
+    display: inline-block;
+    width: 496px;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.time {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.time-second {
+    display: inline-block;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 14px;
+    width: 230px;
+}
+
+.speakers {
+    height: 950px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.speakers-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.speakers-container p {
+    float: right;
+    width: 550px;
+    margin-top: 70px;
+}
+
+.the-speakers {
+    width: 270px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.section-for-images {
+    height: 800px;
+}
+
+.images-container {
+    margin: 0 auto;
+    width: 900px;
+    height: 399px;
+}
+
+.images-container div {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    height: 350px;
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+}
+
+.images-container div img {
+    width: 100%;
+}
+
+.images-container p {
+    width: 230px;
+    margin-top: 10px;
+    color: #3D3C44;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.fa-github {
+    color: #3D3C44;
+    width: 45px;
+    margin-right: 70px;
+    margin-top: -32px;
+}
+
+.image-container-second-paragraph {
+    text-transform: uppercase;
+    color: #ff5a30;
+    margin-left: 25px;
+}
+
+.fa-github:hover {
+    color: #ff5a30;
+    cursor: pointer;
+}
+
+.special-events {
+    background-color: #3C3E4A;
+    width: 100%;
+    height: 650px;
+}
+
+.special-events-container {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    margin-top: 50px;
+}
+
+.special-events-box {
+    width: 800px;
+    margin-top: 80px;
+}
+
+.special-events-box h1{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.special-events-box p {
+    width: 360px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.special-events-subscribe {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.special-events-subscribe input {
+    border-bottom: 3px solid #F86A2E;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: #ffffff;
+}
+
+.special-events-subscribe button {
+    padding: 5px;
+    width: 120px;
+    color: #ffffff;
+    background-color: #F86A2E;
+    border-radius: 15px;
+    border-color: #F86A2E;
+}
+
+.special-events-subscribe button:hover {
+    background-color: #333333;
+    border-color: #333333;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #292A2F;
+    height: 100px;
+    margin-top: -20px;
+}
+
+footer p {
+    float: left;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+footer .second-footer-paragraph {
+    float: right;
+    width: 220px;
+}
